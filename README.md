@@ -1,2 +1,2 @@
 # HackerrankProblemSolvingSolutions
-This repository contains all the hackerrank solutions for problem solving in C.
+This repository contains complete hackerrank solutions for problem solving in C in my own logic.
