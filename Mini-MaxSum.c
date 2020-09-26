@@ -9,7 +9,7 @@
 #include <string.h>
 int main()
 {
-     long int n,i,a[10000];
+     long int n,i,a[5];
      long int sum=0,min,max;
     
     for(i=0;i<5;i++)
