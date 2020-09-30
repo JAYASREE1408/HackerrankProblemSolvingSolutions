@@ -34,4 +34,39 @@ int main()
        
 }
 
+or
+
+#include <assert.h>
+#include <ctype.h>
+#include <limits.h>
+#include <math.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main(){
+    int n,i,j,d,m,sum=0,count=0;
+    scanf("%d",&n);
+    int a[n];
+    for (i=0; i<n; i++) {
+    scanf("%d",&a[i]);
+    }
+    scanf("%d %d",&d,&m);
+        
+    for(i=0;i<n;i++){
+        sum=0;
+        for(j=i;j<i+m;j++){
+            sum=sum+a[j];
+            }
+            if(sum==d){
+                count++;
+
+        }
+    }
+    printf("%d",count);
+}
+
+
 
