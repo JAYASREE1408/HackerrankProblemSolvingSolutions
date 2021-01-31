@@ -24,8 +24,6 @@ int main()
      printf("12.09.%d",year);
         else
         printf("13.09.%d",year);
-    
-
     } 
     if(year==1918)
     {
