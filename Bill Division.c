@@ -10,7 +10,7 @@ int main() {
     for(i=0;i<n;i++)
     {
         scanf("%d ",&ar[i]);
-    }
+    } 
     scanf("%d",&k);
 
     for(j=0;j<n;j++)
