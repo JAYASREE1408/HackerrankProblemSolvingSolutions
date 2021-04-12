@@ -5,7 +5,7 @@
 #include <assert.h>
 #include <limits.h>
 #include <stdbool.h>
-
+ 
 int main(){
     int n,j=0,max=0; 
     scanf("%d",&n);
